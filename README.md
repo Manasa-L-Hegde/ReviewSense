@@ -118,7 +118,7 @@ The Multinomial Naive Bayes model typically achieves:
 
 ## Author
 
-Data Science Team
+@Manasa-L-Hegde
 
 ## License
 
