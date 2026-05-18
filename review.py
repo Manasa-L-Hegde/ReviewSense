@@ -346,6 +346,21 @@ def main() -> None:
         # Save figure for presentation use
         out_path = 'sentiment_summary.png'
         plt.savefig(out_path, dpi=150, bbox_inches='tight')
+        # Also save the two plots individually for easier reuse
+        try:
+            # Sentiment distribution alone
+            fig_dist, ax_dist = plt.subplots(figsize=(7, 6))
+            plot_sentiment_distribution(df, ax_dist)
+            fig_dist.savefig('sentiment_distribution.png', dpi=150, bbox_inches='tight')
+            plt.close(fig_dist)
+
+            # Confusion matrix alone
+            fig_cm, ax_cm = plt.subplots(figsize=(7, 6))
+            plot_confusion_matrix(y_test, y_pred, le, ax_cm)
+            fig_cm.savefig('confusion_matrix.png', dpi=150, bbox_inches='tight')
+            plt.close(fig_cm)
+        except Exception as e:
+            logger.error(f"Failed to save individual plots: {e}")
         plt.show()
 
         # Print classification report to console
