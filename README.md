@@ -149,12 +149,13 @@ Dataset Overview:
 
 Sample Reviews:
 --------------------------------------------------------------------------------
-                                                                                                                         review sentiment
-                                                                                              Wow... Loved this place.  Positive
-                                                                                                       Crust is not good.  Negative
-                                                                     Not tasty and the texture was just nasty.  Negative
+review sentiment
+Wow... Loved this place.  Positive
+Crust is not good.  Negative
+Not tasty and the texture was just nasty.  Negative
 Stopped by during the late May bank holiday off Rick Steve recommendation and loved it.  Positive
-                                          The selection on the menu was great and so were the prices.  Positive
+The selection on the menu was great and so were the prices.  Positive
+
 2026-05-18 19:14:38,571 - INFO - Preprocessing reviews...
 2026-05-18 19:14:38,843 - INFO - Text preprocessing completed
 2026-05-18 19:14:38,875 - INFO - TF-IDF vectorization complete: 1500 features
