@@ -124,6 +124,10 @@ The Multinomial Naive Bayes model typically achieves:
 
 MIT License
 
+## Output Snapshot
+
+<img width="1920" height="1128" alt="Screenshot 2026-05-18 191546" src="https://github.com/user-attachments/assets/4259397c-514e-4194-966a-ae81391c2022" />
+
 ## Run Output (2026-05-18)
 
 The project was executed locally and produced the following console output and visual summary image.
